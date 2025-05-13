@@ -2,11 +2,12 @@
 
 
 body {
-    background-color: rgb(28, 28, 28);
+    /*background-color: rgb(28, 28, 28);*/
+    background-image: url("../Images/site/background.png");
 }
 
 
 .text {
-    color: rgb(246, 239, 231);
+    color: rgb(28, 28, 28);
     font-size: 1rem
 }

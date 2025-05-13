@@ -2,13 +2,15 @@
 
 .card {
     margin-bottom: 20px;
-    background-color: #3c3c3e;
-    color: rgb(246, 239, 231);
+    background-color: rgb(28, 28, 28);
+    color: #f2f0eb
+;
 }
 h2 {
     margin: 30px 0 20px;
 }
 
 body {
-    background-color: rgb(28, 28, 28);
+    background-image: url("../Images/site/background.png");
+    /*background-color : #f1ede1;*/
 }

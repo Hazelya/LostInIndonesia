@@ -2,7 +2,7 @@
 
 
 .article-header {
-    background-color: rgb(246, 239, 231);
+    background-color: #f2f0eb;
     padding: 2rem 0;
     margin-bottom: 2rem;
 }
@@ -20,7 +20,7 @@
 .article-footer {
     margin-top: 3rem;
     padding-top: 1rem;
-    border-top: 1px solid rgb(246, 239, 231);
+    border-top: 1px solid #f2f0eb;
 }
 
 
@@ -42,7 +42,7 @@
 
 /* Style pour la carte de l'article */
 .card {
-    background-color: rgb(246, 239, 231);
+    background-color: #f2f0eb;
     border-radius: 8px;
 }
 
@@ -50,7 +50,7 @@
 /* Solution pour les images du carrousel */
 .carousel-item {
     height: 400px; /* Hauteur fixe pour tous les slides */
-    background-color: rgb(246, 239, 231); /* Couleur de fond blanc */
+    background-color: #f2f0eb; /* Couleur de fond blanc */
     text-align: center; /* Centre l'image horizontalement */
 }
 
