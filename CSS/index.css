@@ -8,7 +8,7 @@ body {
 h1 {
     color: rgb(28, 28, 28);
     text-align: center;
-    font-size: 11rem;
+    font-size: 10rem;
     /* -webkit-text-fill-color: #b32322;
     -webkit-text-stroke: 3px black; */
 }
@@ -16,8 +16,13 @@ h1 {
 h2 {
     color: rgb(28, 28, 28);
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     /* -webkit-text-fill-color: #b32322;
     -webkit-text-stroke: 3px black; */
 }
 
+img {
+    display: block;
+    width: 20%;
+    margin: auto;
+}
