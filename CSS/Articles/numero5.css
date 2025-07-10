@@ -1,0 +1,106 @@
+body {
+    background-image: url('../../Images/site/background.png');
+}
+
+
+.article-header {
+    background-color: #f2f0eb;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+.article-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.carousel {
+    margin: 2rem 0;
+}
+.carousel-item img {
+    max-height: 30rem;
+    object-fit: cover;
+}
+.article-footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #f2f0eb;
+}
+
+
+.card {
+    padding: 5rem;
+}
+
+
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+/* ajouter un bord blanc */
+
+
+
+/* Style pour la carte de l'article */
+.card {
+    background-color: #f2f0eb;
+    border-radius: 8px;
+}
+
+
+
+.list{
+    padding: 1.5rem;
+    background-color: rgba(179, 35, 34, 0.6);
+    border-radius: 8px;
+    color: rgb(28, 28, 28);
+}
+
+
+/* Pour les photo aligné */
+
+.photo-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0; /* pas de padding horizontal */
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    scroll-snap-type: x mandatory;
+}
+
+.photo-gallery img {
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+
+
+
+/* Variante responsive par taille d’écran */
+@media (max-width: 768px) {
+    .photo-gallery img {
+        max-height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .photo-gallery img {
+        max-height: 80px;
+    }
+}
+
+/* empeche le telechargement */
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
